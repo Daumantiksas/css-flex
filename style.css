@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header {
+    background: blue;
+
+}
+.logo {
+    background: deepskyblue;
+    height: 300px;
+    width: 100%;
+}
+/*.ekranas{
+    display: flex;
+}*/
+.langai p{
+    height: 200px;
+    width:  200px;
+}
+.langai{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;}
+.apacia{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+}
+.apacia p{
+    width: 30%;
+    height: 100px;
+}
+.langai p:nth-child(1){background: yellow;}
+.langai p:nth-child(2){background: red;}
+.langai p:nth-child(3){background:deepskyblue; }
+.langai p:nth-child(4){background: forestgreen;}
+.langai p:nth-child(5){background: purple; }
+.apacia p:nth-child(1){background: blue;}
+.apacia p:nth-child(2){background: aqua;}
+.apacia p:nth-child(3){background: blue;}
